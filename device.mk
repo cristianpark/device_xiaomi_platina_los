@@ -32,6 +32,10 @@ include $(LOCAL_PATH)/oem-permissions/permissions.mk
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
+<<<<<<< HEAD
+=======
+    $(LOCAL_PATH)/overlay-lineage
+>>>>>>> parent of d7f7c20... Lineage 16.0 -> AOSiP 9.0
 
 #PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
@@ -283,6 +287,10 @@ PRODUCT_COPY_FILES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.platina
+
+# LiveDisplay
+PRODUCT_PACKAGES += \
+    vendor.lineage.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_COPY_FILES += \
