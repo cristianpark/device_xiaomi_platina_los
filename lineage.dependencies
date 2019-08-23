@@ -1,0 +1,13 @@
+[
+  {
+    "repository":  "vendor_xiaomi_platina",
+    "target_path": "vendor/xiaomi/platina",
+    "branch":      "pie"
+  },
+  {
+    "remote":      "github",
+    "repository":  "Ancient-Project/kernel_xiaomi_platina",
+    "target_path": "kernel/xiaomi/platina",
+    "branch":      "pie"
+  }
+]
