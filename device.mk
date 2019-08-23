@@ -30,12 +30,8 @@ include $(LOCAL_PATH)/vendor_prop.mk
 include $(LOCAL_PATH)/oem-permissions/permissions.mk
 
 # Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-<<<<<<< HEAD
-=======
+DEVICE_PACKAGE_OVERLAYS += \    
     $(LOCAL_PATH)/overlay-lineage
->>>>>>> parent of d7f7c20... Lineage 16.0 -> AOSiP 9.0
 
 #PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res

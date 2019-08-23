@@ -22,21 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from platina device
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
-<<<<<<< HEAD:superior_platina.mk
-# Inherit from Miui Camera
-$(call inherit-product, vendor/MiuiCamera/config.mk)
-
-# Inherit some common SuperiorOS stuff.
-TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/superior/config/common.mk)
-
-PRODUCT_NAME := superior_platina
-=======
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := lineage_platina
->>>>>>> parent of d7f7c20... Lineage 16.0 -> AOSiP 9.0:lineage_platina.mk
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := platina
 PRODUCT_MANUFACTURER := Xiaomi
