@@ -27,11 +27,7 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 MK_ROOT="$MY_DIR"/../../..
 
-<<<<<<< HEAD
 HELPER="$MK_ROOT"/vendor/lineage/build/tools/extract_utils.sh
-=======
-HELPER="$MK_ROOT"/vendor/mk/build/tools/extract_utils.sh
->>>>>>> parent of d7f7c20... Lineage 16.0 -> AOSiP 9.0
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
