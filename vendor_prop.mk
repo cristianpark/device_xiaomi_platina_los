@@ -196,8 +196,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.af.client_heap_size_kbyte=7168 \
     vendor.audio_hal.in_period_size=144 \
-    vendor.audio_hal.period_multiplier=3 \
-    vendor.audio.adm.buffering.ms=
+    vendor.audio_hal.period_multiplier=3
 
 #add for dirac algo tsx 9/12
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -473,7 +472,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.audio.offload.pstimeout.secs=3 \
     ro.af.client_heap_size_kbyte=7168 \
     persist.vendor.audio.hw.binder.size_kbyte=1024 \
-    audio.adm.buffering.ms=6 \
+    vendor.audio.adm.buffering.ms=6 \
     ro.vendor.audio.soundfx.usb=true \
     ro.vendor.audio.sos=true \
     ro.vendor.sensors.facing=false \
